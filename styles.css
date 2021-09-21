@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root{
+  --primary-color: #663399;
+  --secondary-color:  #e6e6fa;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--secondary-color);
+  margin: 0;
+}
+.navigation{
+  background-color: var(--primary-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav-links{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.inline{
+  display: inline;
+  padding: 5rem;
+}
+.link-active{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container{
+  text-align: center;
+  color: var(--primary-color);
+}
+.interact-stuff{
+  font-size: 25px;
+}
+.angle-input{
+  border: 2px solid black;
+  height: 5vh;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+h2{
+  color: black;
+}
+#check-triangle-btn{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem;
+}
+.output{
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: bolder;
+  max-width: 600px;
+  margin: auto;
+}
+img{
+  background-color: var(--secondary-color);
+}
+
+/** Hypotenuse Length **/
+.side-input{
+  border: 2px solid black;
+  height: 5vh;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+#hypotenuse-btn{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem;
+}
+
+/** triangle Quiz**/
+
+.quiz-form{
+  color: black;
+  font-size: 16px;
+}
+#submit-answer-btn{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem;
+}
+.options-style{
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+/**Area of triangle **/
+#area-btn{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  padding: 0.5rem;
+}

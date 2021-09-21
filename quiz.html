@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Triangle Quiz</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li class="inline"><a href="index.html" class="nav-links"> Is Triangle?</a></li>
+        <li class="inline"><a href="quiz.html" class="nav-links link-active"> Triangle Quiz </a></li>
+        <li class="inline"><a href="hypotenuse.html" class="nav-links">  Find Hypotenuse </a></li>
+        <li class="inline"><a href="area.html" class="nav-links"> Area of Triangle </a></li>
+      </ul>
+    </nav>
+    <br>
+    <div class="container">
+      <h1>Triangle Quiz</h1>
+      <h2>Know your triangles? Answer these questions and test your expertise on triangles.</h2>
+      <br>
+        <form class="quiz-form" method="post">
+          <div class="question-container">
+            <p>Q1. Which of these Theorems is associated with a triangle?</p>
+            <label for="" class="options-style">
+              <input type="radio" name="question1" value="Fermat's last theorem"  />Fermat's last theorem  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question1" value="Pythagoras theorem"  />Pythagoras theorem  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question1" value="Binomial Theorem" />Binomial theorem
+            </label>
+          </div>
+          <br><br>
+          <div class="question-container">
+            <p>Q2. If one of the angle in a triangle is 90°, what will the other 2 angles add up to?</p>
+            <label for="" class="options-style">
+              <input type="radio" name="question2" value="120" />120° &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question2" value="60°" />60°  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question2" value="90°" />90°
+            </label>
+          </div>
+          <br><br>
+          <div class="question-container">
+            <p>Q3. What is the max number of triangles one can draw inside a Square?</p>
+            <label for="" class="options-style">
+              <input type="radio" name="question3" value="5" /> 5  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question3" value="8" /> 8  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question3" value="4" />4
+            </label>
+          </div>
+          <br><br>
+          <div class="question-container">
+            <p>Q4. What triangle has 2 equal sides?</p>
+            <label for="" class="options-style">
+              <input type="radio" name="question4" value="isoceles" >isoceles &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question4" value="acute" >acute  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question4" value="obtuse" >obtuse
+            </label>
+          </div>
+          <br><br>
+          <div class="question-container">
+            <p>Q4. A formulae to obtain the Area of a triangle was proposed by: </p>
+            <label for="" class="options-style">
+              <input type="radio" name="question5" value="Heron" />Heron  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question5" value="Newton" />Newton  &nbsp&nbsp&nbsp
+            </label>
+            <label for="" class="options-style">
+              <input type="radio" name="question5" value="Euler" />Euler
+            </label>
+          </div>
+        </form>
+       <br><br>
+      <button type="button" name="button" id="submit-answer-btn">Submit Answer</button>
+      <br><br><br>
+      <div class="output"> </div>
+      <div class="output"> </div>
+      <br><br>
+    </div>
+  </body>
+  <script type="text/javascript" src="quiz.js"> </script>
+</html>
