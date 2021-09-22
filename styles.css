@@ -48,6 +48,7 @@ h2{
   color: white;
   font-size: 16px;
   padding: 0.5rem;
+  cursor: pointer;
 }
 .output{
   color: var(--primary-color);
@@ -73,6 +74,7 @@ img{
   color: white;
   font-size: 16px;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 /** triangle Quiz**/
@@ -86,6 +88,7 @@ img{
   color: white;
   font-size: 16px;
   padding: 0.5rem;
+  cursor: pointer;
 }
 .options-style{
   color: var(--primary-color);
@@ -98,4 +101,5 @@ img{
   color: white;
   font-size: 16px;
   padding: 0.5rem;
+  cursor: pointer;
 }
