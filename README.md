@@ -1,5 +1,2 @@
 A multi page website with fun activities on triangles. Built in VanillaJS with HTML and CSS.
-*Find if the inputted angles make a triangle
-*Take a quiz on triangles
-*Calculate the hypotenuse
-*Calculate the area of a triangle
+Check if 3 angles make a triangle, know its hypotenuse and area. There's also a fun quiz if you're up for it.
