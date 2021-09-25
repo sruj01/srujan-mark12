@@ -10,7 +10,7 @@ function calculateAngleSum(angle1, angle2, angle3) {
 
 
 function isTriangle(){
-  if(angleInput[0].value && angleInput[1].value && angleInput[2].value)
+  if(angleInput[0].value > 0 && angleInput[1].value > 0 && angleInput[2].value > 0)
   {
     const sumOfAngles = calculateAngleSum(Number(angleInput[0].value), Number(angleInput[1].value), Number(angleInput[2].value));
     if (sumOfAngles === 180){
@@ -21,7 +21,7 @@ function isTriangle(){
     }
   }
   else{
-    outputElement.innerText = "Please enter all the fields";
+    outputElement.innerText = "Please enter valid details";
   }
 }
 
